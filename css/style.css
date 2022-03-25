@@ -1,0 +1,437 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ECECF0;
+}
+
+.header {
+	width: 100%;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.header .logo {
+	width: 50%;
+	margin-left: 40px;
+	float: left;
+}
+
+.header .logo img {
+	height: 70px;
+	width: 100px;
+}
+
+.header .menu {
+	float: right;
+	margin-right: 40px;
+}
+
+.header .menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.header .menu ul li:last-child {
+	margin-right: 0px;
+}
+
+.header .menu ul li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 17px;
+	transition: .5s;
+}
+
+.header .menu ul li a:hover{
+	color: red;
+}
+
+/*--------End Header ----------*/
+
+.hero {
+	overflow: hidden;
+	width: 100%;
+	margin-left: 50px;
+	margin-top: 60px;
+}
+
+.hero .heroLeftContent {
+	float: left;
+	width: 50%;
+}
+
+.hero .heroLeftContent h4 {
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.hero .heroLeftContent h1 {
+	font-size: 60px;
+	color: #43960F;
+}
+
+.hero .heroLeftContent p {
+	margin-top: 25px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.hero .heroLeftContent .input {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.hero .heroLeftContent .input input {
+	padding: 12px 60px;
+	outline: none;
+	border: none;
+	box-shadow: 0px 0px 5px;
+}
+
+.hero .heroLeftContent .input .inputBtn {
+	background: #1A1B19;
+	padding: 12px 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+.hero .heroLeftContent .vag {
+	background: #1A1B19;
+	padding: 12px 15px;
+	color: #fff;
+	text-decoration: none;
+}
+.hero .heroLeftContent .vag:hover{
+	background:green;
+	color:black;
+	transition:.4s;
+}
+
+.hero .heroImg {
+	float: right;
+	width: 50%;
+}
+
+.hero .heroImg {
+	float: right;
+	width: 50%;
+}
+
+.hero .heroImg img {
+	height: 500px;
+	width: 500px;
+	display: flex;
+    margin-top: -113px;
+    margin-left: 92px;
+}
+
+
+/* END HEADER SECTION */
+
+
+
+/*START ABOUT SECTION*/
+
+.about {
+	width: 95%;
+	overflow: hidden;
+	box-shadow: 3px 1px 10px;
+	margin-left: 20px;
+
+}
+
+.about .aboutLeft h2 {
+	background: #547D13;
+	color: white;
+	display: inline-block;
+	padding: 10px 30px;
+	margin-left: 150px;
+	margin-top: 15px;
+
+
+}
+
+.about .aboutLeft p {
+	font-family: sans-serif;
+	line-height: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 150px;
+}
+
+.about .aboutLeft a {
+	color: white;
+	background: #000000;
+	padding: 12px 20px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 30px;
+	margin-left: 150px;
+	margin-bottom: 30px;
+	transition: .5s;
+
+}
+
+.about .aboutLeft a:hover {
+	background: #547D13;
+}
+
+.about .aboutLeft {
+	width: 50%;
+	float:left;
+	background-color: #fff;
+}
+
+.about .aboutRight img {
+	height: 384px;
+	width: 630px;
+}
+
+/*--------End About ----------*/
+
+/*--------START FRESH VEGETABLE ----------*/
+
+.fresh {
+	width: 100%;
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+.fresh h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 35px;
+	margin-bottom: 40px;
+}
+
+.fresh .vege {
+	color: #488D1C;
+
+
+}
+
+.fresh .freshLeft {
+	width: 50%;
+	float: left;
+	margin-left: 30px;
+}
+
+.fresh .freshLeft img {
+	height: 384px;
+	width: 630px;
+}
+
+.fresh .freshRight {
+	margin-top: 20px;
+}
+
+.fresh .freshRight h2 {
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+.fresh .freshRight p {
+	line-height: 50px;
+}
+
+/*END FRESH AREA*/
+
+/*START CONTACT SECTION*/
+
+
+.contact h1 {
+	text-align: center;
+	font-size: 35px;
+
+}
+
+.contact span {
+	color: #488D1C;
+}
+
+.contact form {
+	width: 600px;
+	margin: 0 auto;
+	padding: 40px;
+	box-shadow: 1px 1px 15px;
+	margin-top: 15px;
+
+
+
+}
+
+.contact form input {
+	display: block;
+	padding: 10px;
+	width: 500px;
+	outline: none;
+	margin-bottom: 20px;
+}
+
+/*
+.contact form input::placeholder {
+	color: red;
+}
+*/
+/*=========================new work-----------------------*/
+ .gallary-section{
+	 padding:150px 0;	
+ } 
+ .gl-bg h1{
+	 position:relative;
+	 color:green;
+	 font-weight:800;
+ }
+ .gl-bg h1::after{
+	 position:absolute;
+	 content:"";
+	 background:#008000;
+	 width:380px;
+	 height:2px;
+	 display:block;
+	 left:34%;
+	 right:0;
+ }
+ .gallary-section .gl-bg{
+	 text-align:center;
+	 text-transform:uppercase;
+	 margin-bottom:40px;
+ }
+.gallary-section .gallary-parrents{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+	columns-gap:50px;
+	row-gap:30px;
+}
+.container{
+	max-width:1200px;
+	width:100%;
+	margin:0 auto;	
+}
+.image-logo{
+	width:350px;
+	height:250px;
+	overflow:hidden;
+}
+.image-logo:hover img{
+	transform:scale(1.5);
+	
+}
+.image-logo img{
+	width:100%;
+	height:100%;
+	transition:.4s;
+}
+/*==========================new -work-last-------------*/
+.contact form textarea {
+	outline: none;
+}
+.contact form .contactBtn {
+	background: #428713;
+	padding: 12px 20px;
+	margin-top: 15px;
+	color: #fff;
+	display: block;
+	width: 120px;
+	text-align: center;
+	text-decoration: none;
+    
+}
+.contact a:hover{
+	backround:red;
+	
+}
+/*END FORM SECTION*/
+
+/*START FOOTER SECTION */
+
+.footer {
+	width: 100%;
+	background: #3B3B3B;
+	padding: 25px;
+	margin-top: 20px;
+}
+
+.footer .footerRow .address .footerLogo {
+	color: #fff;
+	border: 1px solid white;
+	padding: 15px;
+	display: block;
+	width: 133px;
+	text-decoration: none;
+	font-size: 18px;
+
+}
+
+.footer .footerRow .address {
+	color: #fff;
+	max-width: 300px;
+	display: inline-block;
+
+}
+
+.footer .footerRow .address h2 {
+	margin-bottom: 10px;
+}
+
+.footer .footerRow .socialMedia {
+	width: 300px;
+	display: inline-block;
+	color: #fff;
+	margin-left: 40px;
+}
+
+.footer .footerRow .socialMedia h2 {
+	margin-bottom: 10px;
+}
+
+.footer .footerRow .socialMedia ul {
+	list-style: none;
+}
+
+.footer .footerRow .socialMedia ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer .footerRow .newletter {
+	width: 300px;
+	display: inline-block;
+	color: #fff;
+}
+
+.footer .footerRow .newletter input {
+	padding: 8px 15px;
+	outline: none;
+}
+
+.footer .footerRow .newletter a {
+	background: #428713;
+	color: #fff;
+	padding: 8px;
+	display: block;
+	width: 130px;
+	margin-top: 10px;
+	border-radius: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+.footerRow {
+	margin-left: 170px;
+}
+.footer_last {
+	background: #428713;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+
+}

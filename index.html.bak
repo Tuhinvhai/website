@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Bangla BaZer</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<section class="header">
+
+		<div class="logo">
+			<a href="#"><img src="img/lozer.jpg" alt="vagetable"></a>
+		</div>
+
+		<div class="menu">
+			<ul>
+				<li><a href="#"> Home </a></li>
+				<li><a href="#"> About </a></li>
+				<li><a href="#"> Vegetable </a></li>
+				<li><a href="#"> Testimonial </a></li>
+				<li><a href="#"> Contact Us </a></li>
+			</ul>
+		</div>
+		<!--/Menu-->
+	</section>
+	<!--/Header-->
+
+
+	<section class="hero">
+
+		<div class="heroLeftContent">
+			<h4>Welcome To Shree</h4>
+			<h1>BagaL BaZer</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quidem, adipisci consequuntur voluptatem facilis eaque maxime ab suscipit, corrupti optio nemo labore laborum quasi distinctio ipsum eos temporibus, dolorum laboriosam.</p>
+
+			<div class="input">
+				<input type="text" placeholder="Vagetables">
+				<a href="#" class="inputBtn">Search</a>
+			</div>
+
+			<a href="#" class="vag">Contact Us</a>
+			<a href="#" class="vag">Vagetagles</a>
+
+		</div>
+
+		<div class="heroImg">
+			<img src="img/fitnes.png" alt="slider">
+		</div>
+
+
+	</section>
+	<!--about-section------------------------------------------------------------------------------------------------------------------------>
+
+
+	<section class="about">
+		<div class="aboutLeft">
+			<h2>About Us</h2>
+			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages andIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many</p>
+			<a href="#" class="aboutBtn"> Read More </a>
+		</div>
+
+		<div class="aboutRight">
+			<img src="img/0002318_beverages_370.png" alt="">
+		</div>
+	</section>
+
+	<section class="fresh">
+		<h1>Fresh <span class="vege">Vegetable</span></h1>
+
+		<div class="freshLeft">
+			<img src="img/0002318_beverages_370.png0002318_beverages_370.png" alt="">
+		</div>
+
+
+		<div class="freshRight">
+			<h2>Best Vegetables Shop</h2>
+			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages andIt is a long established fact that a reader will be distracted
+
+			</p>
+		</div>
+	</section>
+<!-----------------------------------image-section--------------------------------->
+    <div class="gallary-section">
+	    <div class="container">
+		  <div class="row">
+		      <div class="gl-bg">
+			   <h1>This the all contant</h1>
+			  </div>
+		      <div class="gallary-parrents">
+			    
+				  <div class="image-logo">
+				    <img src="img/logo1.jpg">
+				  </div>
+				  <div class="image-logo">
+				    <img src="img/images (1).jpg">
+				  </div>
+				    <div class="image-logo">
+				    <img src="img/vegetables-name-in-english-3.jpg">
+				  </div>
+				    <div class="image-logo">
+				    <img src="img/sobji.png">
+				  </div>
+				   <div class="image-logo">
+				    <img src="img/v1.jpg">
+				  </div>
+				  <div class="image-logo">
+				    <img src="img/logo2.jpg">
+				  </div>
+				    <div class="image-logo">
+				    <img src="img/maxresdefault (1).jpg">
+				  </div> 
+				  <div class="image-logo">
+				    <img src="img/download.jpg">
+				  </div>
+				   <div class="image-logo">
+				    <img src="img/download (1).jpg">
+				  </div> 
+				  <div class="image-logo">
+				    <img src="img/maxresdefault.jpg">
+				  </div>
+				  <div class="image-logo">
+				    <img src="img/hqdefault.jpg">
+				  </div> 
+				  <div class="image-logo">
+				    <img src="img/fresh-tenualosa-ilisha-hilsa-fish-white-background-isolated-159700054.jpg">
+				  </div>
+				  
+			  </div>
+		  </div>
+		</div>
+	</div>
+
+<!--/contract-section------------------------------------------->
+
+	<section class="contact">
+
+		<h1>Contact <span> Us</span></h1>
+
+		<form>
+			<input type="text" class="name" placeholder="Your Name">
+
+			<input type="email" class="email" placeholder="Email">
+
+			<input type="text" class="number" placeholder="Phone/Number">
+
+			<textarea name="" id="" cols="68" rows="10" placeholder="Message"></textarea>
+
+
+			<a href="#" class="contactBtn"> Send </a>
+		</form>
+
+
+
+	</section>
+
+	<!--/Start Footer Section -->
+
+	<section class="footer">
+		<div class="footerRow">
+
+			<div class="address">
+				<a href="#" class="footerLogo">Tuhin Ahmed</a>
+
+				<h2>Address</h2>
+				<p>it is a log esablished fact that a reader will be</p>
+				<p>(+019942251)</p>
+				<p>mahinfahim900@gamil.com</p>
+			</div>
+
+
+
+			<div class="socialMedia">
+				<h2>personal socail link</h2>
+				<ul>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Instagram</a></li>
+					<li><a href="#">Linkedin</a></li>
+				</ul>
+			</div>
+
+
+			<div class="newletter">
+				<h2>please give your gamil addres</h2>
+				<input type="email" placeholder="Your Email">
+				
+			</div>
+
+		</div>
+	</section>
+
+
+</body></html>
